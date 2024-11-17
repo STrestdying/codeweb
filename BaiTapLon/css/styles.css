@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.container{
+    width: 80%;
+    background-color: azure;
+    margin: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #202124;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    height: 80px;
+}
+
+.menu-nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav li {
+    margin: 0 15px;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-radius: 8px;
+    /* color: red; */
+    border-bottom: 2px solid red;
+}
+
+.menu-options {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    height: 50px;
+    margin-left: 15px;
+    transition: transform 0.3s;
+}
+
+.icon img:hover, .order-button:hover {
+    transform: scale(1.1);
+}
+
+.order-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner_silder{
+    background-color: blue;
+    height: 400px;
+    width: 100%;
+}
+
+.category{
+    width: 100%;
+    background-color: red;
+}
+.items{
+    display: inline-block;
+    background-color: rebeccapurple;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.category_hot_items{
+    width: 100%;
+    background-color: blue;
+}
+.hot_items{
+    display: inline-block;
+    background-color: rebeccapurple;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 180px;
+    background-color: #202124;
+    color: #ababab;
+}
+
+/* login css */
+.login{
+    display: inline-block;
+    height: 650px;
+    width: 100%;
+}
+
+.login-img{
+    float: left;
+    display: block;
+    background-color: #e2002b;
+    height: 655px;
+    width: 45%;
+}
+
+.login-content{
+    float: left;
+    display: block;
+    height: 655px;
+    width: 55%;
+    padding: 50px;
+}
+
+input{
+    border: none;
+    height: 50px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(168, 58, 58);
+}
